@@ -1,0 +1,277 @@
+Date: Tue, 9 Nov 2021 19:16:26 +0000 (UTC)
+Message-ID: <2032722521.1.1636485386414@0eaa4a22a092>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1102022205.1636485386392"
+
+------=_Part_0_1102022205.1636485386392
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Including media in Contentful</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Including media in Contentful</h1>
+    <div class=3D"Section1">
+        <p><strong><span style=3D"color: rgb(255,86,48);">Overview</span></=
+strong><span style=3D"color: rgb(255,86,48);"> </span></p>
+<p>When including media (images, video, pdf, audio etc.) into contentful yo=
+u must change the =E2=80=9Ccode=E2=80=9D that sits around the piece of medi=
+a. If you do not change this then the piece of media will not appear throug=
+h the app. To simplify this process we have developed a =E2=80=9Ccheat shee=
+t=E2=80=9D that will enable you to easily swap out the code to ensure your =
+content is delivered through the app. </p>
+<p><strong><span style=3D"color: rgb(255,86,48);">The =E2=80=9CCheatsheet=
+=E2=80=9D </span></strong></p>
+<p>###Questionnaire (this will create a =E2=80=98heading=E2=80=99</p>
+<p>This is the story about a man <strong>named</strong> <em>Jed</em> and ..=
+.</p>
+<p>&lt;img src=3D"<a href=3D"https://images.ctfassets.net/88m42iqrrdet/13b8=
+wlCxaHuqtti0ljUIT1/f5b4403eebed31d64983f33f038205ea/tomasz-wozniak-V62Urdkn=
+DCA-unsplash.jpg%22" class=3D"external-link" rel=3D"nofollow">https://image=
+s.ctfassets.net/88m42iqrrdet/13b8wlCxaHuqtti0ljUIT1/f5b4403eebed31d64983f33=
+f038205ea/tomasz-wozniak-V62UrdknDCA-unsplash.jpg</a>"/&gt;</p>
+<p>&lt;padding value=3D"0" /&gt;</p>
+<p>&lt;pdf src=3D"<a href=3D"https://assets.ctfassets.net/88m42iqrrdet/2uqJ=
+Qvbfq7BKpsaHOtIyKO/2a96875cfc55f5f4daaef4bddf252f2f/sample.pdf%22" class=3D=
+"external-link" rel=3D"nofollow">https://assets.ctfassets.net/88m42iqrrdet/=
+2uqJQvbfq7BKpsaHOtIyKO/2a96875cfc55f5f4daaef4bddf252f2f/sample.pdf</a>" /&g=
+t;</p>
+<p>&lt;audio src=3D"<a href=3D"https://assets.ctfassets.net/88m42iqrrdet/4d=
+SY6CrNl13IQgU4P3PcyL/8e7550cea956ce0c8dc588fe23db3fe7/rainforest-ambient.mp=
+3%22" class=3D"external-link" rel=3D"nofollow">https://assets.ctfassets.net=
+/88m42iqrrdet/4dSY6CrNl13IQgU4P3PcyL/8e7550cea956ce0c8dc588fe23db3fe7/rainf=
+orest-ambient.mp3"</a> /&gt;</p>
+<p>&lt;video src=3D"<a href=3D"https://videos.ctfassets.net/88m42iqrrdet/5R=
+OjMb7w5hjuSaFLcJdCsF/01c61b3b9779b7f119605986a9557f10/butterfly.mp4%22" cla=
+ss=3D"external-link" rel=3D"nofollow">https://videos.ctfassets.net/88m42iqr=
+rdet/5ROjMb7w5hjuSaFLcJdCsF/01c61b3b9779b7f119605986a9557f10/butterfly.mp4"=
+</a> /&gt;</p>
+<p>&lt;video src=3D"<a href=3D"https://www.youtube.com/watch?v=3D5MuIMqhT8D=
+M%22" data-card-appearance=3D"inline" class=3D"external-link" rel=3D"nofoll=
+ow">https://www.youtube.com/watch?v=3D5MuIMqhT8DM%22</a> label=3D"youtube" =
+/&gt;</p>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_0_1102022205.1636485386392--
